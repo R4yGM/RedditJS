@@ -55,7 +55,8 @@
     "Require.js",
     "Reddit"
   ]
-}, "scripts": {
+}, 
+"scripts": {
         "build": "node server/server.js",
         "test": "standard"
     }
