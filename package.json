@@ -13,6 +13,10 @@
     "node": "0.11.14",
     "npm": "2.0.0"
   },
+  "scripts": {
+        "build": "node server/server.js",
+        "test": "standard"
+    },
   "dependencies": {
     "async": "^0.2.10",
   "body-parser": "^1.1.1",
@@ -55,8 +59,5 @@
     "Require.js",
     "Reddit"
   ]
-}, 
-"scripts": {
-        "build": "node server/server.js",
-        "test": "standard"
-    }
+} 
+
